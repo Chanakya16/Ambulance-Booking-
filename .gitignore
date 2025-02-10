@@ -1,0 +1,21 @@
+# Ignore local properties (contains API keys)
+local.properties
+
+# Ignore build and cache files
+.gradle/
+.idea/
+/build/
+/app/build/
+
+# Ignore debug files
+*.iml
+*.log
+
+# Ignore user-specific files
+.DS_Store
+/captures/
+
+# Ignore generated files
+/out/
+*.keystore
+
